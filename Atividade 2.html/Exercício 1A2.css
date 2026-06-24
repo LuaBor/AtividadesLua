@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(191, 226, 156)
+}
+h1 {
+    color:rgb(65, 125, 4);
+}
+.conteudo-lado-a-lado {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Faz o texto ir para baixo se não houver espaço lateral */
+}

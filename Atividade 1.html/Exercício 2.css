@@ -1,6 +1,12 @@
 h1 {
-    color:rgb(162, 90, 8)
+    color:rgb(162, 90, 8);
+    text-align:center
 }
 body {
     background-color: rgb(220, 213, 145) 
+}
+ 
+p {
+   font-size: 20px; 
+   text-align:center
 }
