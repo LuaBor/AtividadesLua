@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastros</title>
+    <link rel="stylesheet" href="styles.AT3.css"
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+  <form>
+    <label for="nome">Nome Completo</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+    <label for="email">E-mail</label><br>
+    <input type="email" id="email" name="email" placeholder="seu-email@dominio.com"><br><br>
+
+    <label for="senha">Senha</label><br>
+    <input type="password" id="senha" name="senha" placeholder="Crie uma senha segura"><br><br>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h1>Criar Nova Tarefa</h1>
+  <form>
+    <label for="titulo-tarefa">Título da Tarefa</label><br>
+    <input type="text" id="titulo-tarefa" name="titulo-tarefa" placeholder="Ex: Estudar Matemática"><br><br>
+
+    <label for="descricao-tarefa">Descrição</label><br>
+    <textarea id="descricao-tarefa" name="descricao-tarefa" rows="4" placeholder="Detalhes sobre a tarefa..."></textarea><br><br>
+
+    <label for="prioridade">Prioridade</label><br>
+    <select id="prioridade" name="prioridade">
+      <option value="baixa">Baixa</option>
+      <option value="media">Média</option>
+      <option value="alta">Alta</option>
+    </select><br><br>
+
+    <button type="submit">Criar Tarefa</button>
+  </form>
+
+  <h1>Reserva de Espaço da Escola</h1>
+  <form>
+    <label for="nome-responsavel">Nome do Responsável</label><br>
+    <input type="text" id="nome-responsavel" name="nome-responsavel" placeholder="Digite seu nome"><br><br>
+
+    <label for="turma">Turma</label><br>
+    <input type="text" id="turma" name="turma" placeholder="Ex: 3º Ano A"><br><br>
+
+    <label for="horario">Horário</label><br>
+    <input type="time" id="horario" name="horario"><br><br>
+
+    <button type="submit">Solicitar Reserva</button>
+  </form>
+
+  <h1>Acessar Sistema</h1>
+  <form>
+    <label for="login-email">E-mail</label><br>
+    <input type="email" id="login-email" name="login-email" placeholder="Digite seu e-mail"><br><br>
+
+    <label for="login-senha">Senha</label><br>
+    <input type="password" id="login-senha" name="login-senha" placeholder="Digite sua senha"><br><br>
+
+    <button type="submit">Entrar</button>
+  </form>
+
+  <h1>Falar com a Coordenação</h1>
+  <form>
+    <label for="assunto">Assunto</label><br>
+    <input type="text" id="assunto" name="assunto" placeholder="Ex: Dúvida sobre a nota"><br><br>
+
+    <label for="mensagem">Mensagem</label><br>
+    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..."></textarea><br><br>
+
+    <button type="submit">Enviar Mensagem</button>
+  </form>
+</body>
+</html>
