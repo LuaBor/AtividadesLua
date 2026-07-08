@@ -1,0 +1,195 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #334155;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.topo-pagina {
+  background-color: #334155;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+
+.topo-pagina h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.topo-pagina p {
+  margin: 8px 0 0 0;
+  opacity: 0.85;
+}
+
+.secao-exercicio {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 35px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.secao-exercicio h2 {
+  color: #1e293b;
+  margin-top: 0;
+  border-bottom: 2px solid #f97316;
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+
+.descricao {
+  font-style: italic;
+  color: #64748b;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.menu-horizontal {
+  display: flex;            
+  gap: 25px;                 
+  background-color: #1e293b;
+  padding: 14px 20px;
+  border-radius: 6px;
+}
+
+.menu-horizontal a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.menu-horizontal a:hover {
+  color: #f97316;
+}
+
+.grade-quatro-cards {
+  display: flex;
+  gap: 12px;
+}
+
+.card-simples {
+  flex: 1;                   
+  background-color: #f8fafc;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.card-simples h4 {
+  margin: 0 0 6px 0;
+  color: #1e293b;
+}
+
+.card-simples p {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.barra-superior {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  background-color: #0f172a;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 6px;
+}
+
+.logo-barra {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-barra {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-barra:hover {
+  background-color: #dc2626;
+}
+
+.layout-duas-colunas {
+  display: flex;
+  gap: 16px;
+}
+
+.coluna-menu {
+  display: flex;
+  flex-direction: column;    
+  gap: 8px;
+  width: 180px;             
+  background-color: #f1f5f9;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.coluna-menu a {
+  color: #475569;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.coluna-menu a:hover {
+  background-color: #cbd5e1;
+  color: #0f172a;
+}
+
+.coluna-conteudo {
+  flex: 1;                 
+  background-color: #f8fafc;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.coluna-conteudo h3 {
+  margin-top: 0;
+}
+
+.cards-responsivos {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;         
+}
+
+.card-aviso {
+  flex: 1;
+  min-width: 220px;        
+  background-color: #fff7ed;
+  border: 1px solid #ffedd5;
+  border-left: 5px solid #f97316;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.card-aviso h5 {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  color: #ea580c;
+}
+
+.card-aviso p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Exercício 5.css">
+</head>
+<body>
+  <header class="topo-pagina">
+    <h1>Exercícios de Flexbox</h1>
+    <p>Todos os tópicos da Atividade 5 estruturados em seções independentes.</p>
+  </header>
+
+  <main class="container">
+
+    <section class="secao-exercicio">
+      <h2>Exercício 1: Menu Horizontal</h2>
+      <p class="descricao">Um menu horizontal simples alinhado lado a lado usando Flexbox.</p>
+      
+      <nav class="menu-horizontal">
+        <a href="#">Início</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contato</a>
+      </nav>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 2: Quatro Cartões Lado a Lado</h2>
+      <p class="descricao">Quatro blocos distribuídos em larguras equilibradas e idênticas na horizontal.</p>
+      
+      <div class="grade-quatro-cards">
+        <div class="card-simples"><h4>Card 1</h4><p>Conteúdo do primeiro bloco.</p></div>
+        <div class="card-simples"><h4>Card 2</h4><p>Conteúdo do segundo bloco.</p></div>
+        <div class="card-simples"><h4>Card 3</h4><p>Conteúdo do terceiro bloco.</p></div>
+        <div class="card-simples"><h4>Card 4</h4><p>Conteúdo do quarto bloco.</p></div>
+      </div>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 3: Barra Superior Distribuída</h2>
+      <p class="descricao">Título totalmente empurrado à esquerda e botão de ação à direita usando space-between.</p>
+      
+      <div class="barra-superior">
+        <span class="logo-barra">Painel Administrativo</span>
+        <button class="btn-barra">Sair do Sistema</button>
+      </div>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 4: Duas Colunas (Menu Lateral + Conteúdo)</h2>
+      <p class="descricao">Layout simulando uma interface de sistema, com navegação vertical à esquerda e conteúdo flexível à direita.</p>
+      
+      <div class="layout-duas-colunas">
+        <aside class="coluna-menu">
+          <a href="#">Dashboard</a>
+          <a href="#">Meus Dados</a>
+          <a href="#">Configurações</a>
+        </aside>
+        <main class="coluna-conteudo">
+          <h3>Área de Trabalho Principal</h3>
+          <p>Esta coluna da direita adapta-se de forma inteligente ocupando todo o espaço restante disponível na estrutura horizontal graças à propriedade flex: 1.</p>
+        </main>
+      </div>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 5: Cards de Avisos Responsivos</h2>
+      <p class="descricao">Cards que mantêm alinhamento lado a lado em telas grandes, mas quebram linha de forma fluida se o espaço for reduzido.</p>
+      
+      <div class="cards-responsivos">
+        <div class="card-aviso">
+          <h5>⚠️ Atualização</h5>
+          <p>O servidor passará por otimizações programadas nesta madrugada.</p>
+        </div>
+        <div class="card-aviso">
+          <h5>📅 Calendário</h5>
+          <p>As datas oficiais dos exames finais já se encontram publicadas.</p>
+        </div>
+        <div class="card-aviso">
+          <h5>🎉 Confraternização</h5>
+          <p>Confirme sua presença no evento de encerramento até sexta-feira.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

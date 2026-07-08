@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercício 6.css">
+</head>
+<body>
+    <header class="topo-pagina">
+    <h1>Componentes de Interface</h1>
+    <p>Exercícios da Atividade 6 estruturados em blocos reutilizáveis.</p>
+  </header>
+
+  <main class="container">
+
+    <section class="secao-exercicio">
+      <h2>Exercício 1: Três Cards de Avisos Diferentes</h2>
+      <p class="descricao">Três blocos de informação isolados e reutilizáveis para avisos.</p>
+      
+      <div class="grade-cards">
+        <div class="card-aviso">
+          <h3>📢 Uso do Uniforme</h3>
+          <p>Lembramos que o uso do uniforme escolar completo é obrigatório para a entrada na instituição a partir do próximo mês.</p>
+        </div>
+        <div class="card-aviso">
+          <h3>⚽ Interclasses de Futsal</h3>
+          <p>As inscrições para o campeonato anual de futsal já estão abertas na secretaria de esportes. Monte seu time!</p>
+        </div>
+        <div class="card-aviso">
+          <h3>📚 Devolução de Livros</h3>
+          <p>O prazo final para a entrega dos livros emprestados da biblioteca antes do recesso é até sexta-feira.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 2: Tabela de Chamada e Presença</h2>
+      <p class="descricao">Tabela formatada com cabeçalho destacado para controle de status dos alunos.</p>
+      
+      <table class="tabela-dados">
+        <thead>
+          <tr>
+            <th>Nome do Aluno</th>
+            <th>Turma</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mariana Costa Silva</td>
+            <td>1º Ano A</td>
+            <td><span class="badge presente">Presente</span></td>
+          </tr>
+          <tr>
+            <td>Pedro Henrique Souza</td>
+            <td>2º Ano C</td>
+            <td><span class="badge ausente">Ausente</span></td>
+          </tr>
+          <tr>
+            <td>Beatriz Lima Santos</td>
+            <td>1º Ano A</td>
+            <td><span class="badge presente">Presente</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 3: Botão de Ação Estilizado</h2>
+      <p class="descricao">Botão estruturado para se destacar visualmente e convidar ao clique.</p>
+      
+      <div class="alinhamento-central">
+        <button class="botao-formulario">📝 Abrir Formulário de Matrícula</button>
+      </div>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 4: Lista de Tarefas com Cartões Individuais</h2>
+      <p class="descricao">Lista onde cada item pendente ganha seu próprio contêiner estruturado.</p>
+      
+      <div class="lista-tarefas">
+        <div class="card-tarefa">
+          <input type="checkbox" id="tarefa1">
+          <label for="tarefa1">Finalizar a maquete do trabalho de Geografia</label>
+        </div>
+        <div class="card-tarefa">
+          <input type="checkbox" id="tarefa2">
+          <label for="tarefa2">Resolver os exercícios de equações quadráticas</label>
+        </div>
+        <div class="card-tarefa concluida">
+          <input type="checkbox" id="tarefa3" checked>
+          <label for="tarefa3">Entregar o relatório de Biologia molecular</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao-exercicio">
+      <h2>Exercício 5: Tela de Painel Integrada (Dashboard)</h2>
+      <p class="descricao">Uma simulação de tela gerencial que junta cartões de métricas e tabelas na mesma área.</p>
+      
+      <div class="painel-dashboard">
+        <div class="dashboard-indicadores">
+          <div class="card-metrica primaria">
+            <h4>Alunos Ativos</h4>
+            <span class="valor">1.450</span>
+          </div>
+          <div class="card-metrica sucesso">
+            <h4>Taxa de Presença</h4>
+            <span class="valor">96.4%</span>
+          </div>
+          <div class="card-metrica alerta">
+            <h4>Novos Avisos</h4>
+            <span class="valor">4</span>
+          </div>
+        </div>
+
+        <div class="dashboard-conteudo">
+          <h3>Últimas Movimentações do Sistema</h3>
+          <table class="tabela-dados">
+            <thead>
+              <tr>
+                <th>Código</th>
+                <th>Descrição do Evento</th>
+                <th>Setor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#0412</td>
+                <td>Atualização da grade de horários de Química</td>
+                <td>Coordenação</td>
+              </tr>
+              <tr>
+                <td>#0411</td>
+                <td>Fechamento de faltas do período matutino</td>
+                <td>Secretaria</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

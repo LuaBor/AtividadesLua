@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercício 4.css">
+</head>
+<body>
+    <header class="topo-pagina">
+    <h1>Meus Exercícios de CSS</h1>
+    <p>Todos os exercícios da Atividade 4 reunidos em uma única página.</p>
+  </header>
+
+  <main class="container">
+
+    <section class="secao-exercicio">
+      <h2>Exercício 1 & 4: Botão Interativo</h2>
+      <p class="descricao">Página com fundo claro, título centralizado e botão que muda de cor ao passar o mouse.</p>
+      
+      <div class="preview-exercicio">
+        <h3 class="titulo-centralizado">Bem-vindo à Atividade</h3>
+        <button class="botao-colorido">Clique Aqui</button>
+      </div>
+    </section>
+
+
+    <section class="secao-exercicio">
+      <h2>Exercício 2: Caixa com Borda, Sombra e Espaçamento</h2>
+      <p class="descricao">Elemento isolado com estilização de profundidade e margens internas.</p>
+      
+      <div class="preview-exercicio">
+        <div class="caixa-destaque">
+          <h3>Destaque do Dia</h3>
+          <p>Esta caixa possui uma borda azul marcante, uma sombra suave para dar a impressão de relevo e espaçamento interno (padding) para o texto não tocar nas bordas.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="secao-exercicio">
+      <h2>Exercício 3: Formulário de Cadastro de Aluno</h2>
+      <p class="descricao">Formulário escolar estruturado e alinhado com CSS.</p>
+      
+      <div class="preview-exercicio">
+        <div class="form-cadastro">
+          <h3>Cadastro de Aluno</h3>
+          <form action="#" method="POST" onsubmit="event.preventDefault();">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" placeholder="Ex: João Silva">
+
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento">
+
+            <label for="turma">Turma:</label>
+            <select id="turma">
+              <option value="">Selecione a turma...</option>
+              <option>1º Ano A</option>
+              <option>2º Ano B</option>
+              <option>3º Ano C</option>
+            </select>
+
+            <button type="submit" class="btn-cadastrar">Cadastrar Aluno</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="secao-exercicio">
+      <h2>Exercício 5: Página de Avisos (Legibilidade)</h2>
+      <p class="descricao">Mural de avisos focado em tipografia, contraste e espaçamento de leitura (line-height).</p>
+      
+      <div class="preview-exercicio alinhado-esquerda">
+        <h3 class="titulo-mural">📢 Mural de Avisos da Escola</h3>
+
+        <div class="cartao-aviso alerta">
+          <h4>Reunião de Pais e Mestres</h4>
+          <p>Atenção, responsáveis! Próxima sexta-feira acontecerá nossa reunião bimestral às 19h no auditório principal. A presença de todos é de extrema importância para o alinhamento das atividades escolares.</p>
+        </div>
+
+        <div class="cartao-aviso info">
+          <h4>🔬 Feira de Ciências 2026</h4>
+          <p>As inscrições para os projetos da Feira de Ciências já estão abertas. Procure seu professor de biologia ou química até o final da semana para garantir a vaga do seu grupo!</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape-pagina">
+    <p>Atividade 4 - Organização Visual com CSS Básico</p>
+  </footer>
+
+</body>
+</html>
